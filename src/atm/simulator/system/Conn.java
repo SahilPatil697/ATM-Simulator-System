@@ -7,7 +7,7 @@ public class Conn{
     public Conn(){
         try{
 //            Class.forName(com.mysql.cj.jdbc.Driver);
-            c=DriverManager.getConnection("jdbc:mysql:///atm_simulator_system","root","Ssahil@4697");
+            c=DriverManager.getConnection("jdbc:mysql:///atm_simulator_system","root","Enter Password here");
             s=c.createStatement();
         }catch (Exception e){
             System.out.println(e);
